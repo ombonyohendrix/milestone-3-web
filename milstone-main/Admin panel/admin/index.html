@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="./admin.css" />
+
+    <script src="../scripts/font-awesome.js" crossorigin="anonymous"></script>
+
+    <title>shop fast </title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- side Navigation bar-->
+      <aside class="sidebar" id="sidebar">
+        <a href="">shop fast</a>
+        <hr />
+        <ul class="list-unstyled">
+          <li>
+            <a href=""><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-pizza-slice"></i> products</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-user-friends"></i> Users</a>
+          </li>
+          <li>
+            <a href=""><i class="far fa-comments"></i> Comments</a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Content-Wrapper -->
+      <main class="content-wrapper" id="main-content">
+        <!-- Top bar -->
+        <nav id="navbar" class="topbar">
+          <button
+            id="sidebarToggleTop"
+            onclick="sidebarToggler();"
+            class="mr-auto"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="dropdown ml-auto">
+            <a href="">Account</a>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href=""><i class="fas fa-user"></i> Profile</a>
+                </li>
+                <br />
+                <li>
+                  <a href=""><i class="fas fa-cogs"></i> Change Password</a>
+                </li>
+                <li><hr /></li>
+                <li>
+                  <a href=""><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Content area -->
+        <article class="content">
+          <h1>Products control panel</h1>
+          <div class="underline"></div>
+          <br />
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Product  Name</th>
+                  <th>Price</th>
+                  <th>Category</th>
+                  <th>product id</th>
+                  <th>Description</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Jumper</td>
+                  <td>2500</td>
+                  <td>Clothes</td>
+                  <td>c10</td>
+                  <td>
+                    A woolen jumper made from local industries to fit 
+                    Syour needs with modern trend in the mode of dressing
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Tv set</td>
+                  <td>25000</td>
+                  <td>Electronics</td>
+                  <td>Es5</td>
+                  <td>
+                    the ultimate Tv sets series in town 
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Von subwoofers</td>
+                  <td>2800</td>
+                  <td>Electronics</td>
+                  <td>Es6</td>
+                  <td>
+                    sub wooofers you've been waiting for witg quality sound 
+                    with warranty of upto two years
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Laptops</td>
+                  <td>165000</td>
+                  <td>Electronics</td>
+                  <td>Es10</td>
+                  <td>
+                    mac pro Laptops available at a throw away price cuurently on town
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <button class="ml-auto btn">
+            <i class="fas fa-plus"></i> Add product
+          </button>
+        </article>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="align-self-center">
+            <p class="text-center">All right Reserved. &copy;2020 shopfast &trade;</p>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>
